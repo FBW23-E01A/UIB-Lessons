@@ -163,13 +163,16 @@ Go a to folder where you have the html file and open it with the browser OR you 
 
 ## Assignments:
 
-**Assignment 1:** [UIB-boilerplate-HTML_doc](https://classroom.github.com/a/Djs-Bn5f)
+**Assignment 1:** [UIB-boilerplate-HTML_doc](https://classroom.github.com/a/S0QWkeIN)
 **Solution:** []()
 
-**Assignment 2:** [UIB-boilerplate-head](https://classroom.github.com/a/k6b3Sdmb)
+**Assignment 2:** [UIB-boilerplate-head](https://classroom.github.com/a/KO4cSh4d)
 **Solution:** []()
 
-**Assignment 3:** [UIB-boilerplate-styletag](https://classroom.github.com/a/WehEHhEI)
+**Assignment 3:** [UIB-basic-html-page](https://classroom.github.com/a/YUImKOh9)
+**Solution:** []()
+
+**Assignment 4:** [UIB-basic-wikipedia-page](https://classroom.github.com/a/DREYp064)
 **Solution:** []()
 
 ---
