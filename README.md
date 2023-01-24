@@ -6,7 +6,7 @@
 
 user interface is the point of human-computer interaction and communication on a device, webpage, or app. This can include display screens, keyboards, a mouse, and the appearance of a desktop. User interfaces enable users to effectively control the computer or device they are interacting with. A successful user interface should be efficient, and user-friendly. Which leads us to our next chapters:
 
-### [UIB-Exercises-solutions](https://github.com/FBWE22-E08/UIB-Exercises-solutions)
+### [UIB-Exercises-solutions](https://github.com/FBW23-E01A/UIB-Lessons/tree/main/Exercises-solutions)
 
 ### User Interface Basics (UIB) Chapters:
 
