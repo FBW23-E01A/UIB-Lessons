@@ -1,0 +1,25 @@
+.el-color {
+  color: red;
+}
+
+.el-font {
+  font-size: 30px;
+}
+
+.el-green {
+  color: green;
+}
+
+.el-blue {
+  color: blue;
+}
+
+#ids-list {
+  list-style-type: square;
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+
+#text-list {
+  background-color: azure;
+}

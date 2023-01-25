@@ -1,0 +1,9 @@
+ul {
+  color: blue;
+  font-size: 25px;
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: upper-roman;
+}

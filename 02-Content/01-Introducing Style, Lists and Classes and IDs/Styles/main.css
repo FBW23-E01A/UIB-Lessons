@@ -1,0 +1,17 @@
+/* span styles */
+
+span {
+  color: pink;
+}
+
+/*************************/
+
+/*  headings and pargraphs styles */
+h2,
+h3,
+p {
+  color: blueviolet;
+  background-color: aqua;
+}
+
+/*************************/
