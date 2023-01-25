@@ -1,0 +1,10 @@
+/* Part 2 - Unordered Lists */
+ul li {
+    list-style-type: circle;
+  }
+  
+  /* Part 3 Easy Carrot Cake  */
+  
+  #ingredients li {
+    list-style-type: square;
+  }
