@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-content-basic_structure",
+    "id": 213860407
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "puppeteer": "^19.5.2"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run postinstall"
+  }
+}
