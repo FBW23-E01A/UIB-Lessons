@@ -1,0 +1,17 @@
+.on-hover:hover {
+  color: green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.on-active:active {
+  color: red;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}

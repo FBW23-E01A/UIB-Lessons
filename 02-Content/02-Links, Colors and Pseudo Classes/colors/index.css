@@ -1,0 +1,26 @@
+h1 {
+  color: blue;
+  background-color: aliceblue;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-red {
+  color: red;
+}
+
+pre {
+  color: #0000ff;
+  background: #00ff00;
+}
+
+h2 {
+  color: #7e92a3;
+}
+
+/* rgb(red, green, blue);  */
+.rgb {
+  color: rgb(130, 19, 209);
+}
