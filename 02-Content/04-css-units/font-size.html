@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 
+        the em unit is calculated in relation to the
+        font-size of a parent element 
+
+        If we specity 1em as a font-size, it means that the element
+        will have a font-size equal to the font-size of the parent, multiplied by 1
+        */
+      .container {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 2em;
+      }
+
+      /* 
+      the rem unit is calculated in relation to the root element (most of the time is the html element)
+      */
+
+      .link {
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+        fugit blanditiis unde quis amet. Facilis dolorem, ab illum recusandae
+        consequatur, pariatur sapiente illo voluptates quibusdam mollitia
+        ducimus adipisci! Expedita, labore.
+      </p>
+
+      <div class="container">
+        <a class="link" href="http://example.com">example.com</a>
+      </div>
+    </div>
+  </body>
+</html>

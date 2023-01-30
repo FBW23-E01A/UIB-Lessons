@@ -1,0 +1,29 @@
+body {
+  background-color: tomato;
+  color: white;
+}
+
+a {
+    color: white;
+}
+
+/* 
+
+- element
+- id
+- class
+
+*/
+
+p {
+    background-color: aquamarine;
+    color: black;
+}
+
+#page-title {
+    background-color: blue;
+}
+
+.footer-link {
+    background-color: blueviolet;
+}
