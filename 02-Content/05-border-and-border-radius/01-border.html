@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        border
+
+        border-style
+        border-color
+        border-width
+        */
+        h1 {
+            /* border-color: #feba12;
+            border-width: 15px;
+            border-style: dashed; */
+            border-bottom: 5px solid tomato;
+            border-left: 5px solid tomato;
+
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+        }
+
+        /* 
+        border-top
+        border-right
+        border-bottom
+        border-left
+        */
+        .box-1 {
+            background-color: pink;
+            border-bottom: 5px solid teal;
+            border-left: 5px solid teal;
+            border-right: 5px solid teal;
+            border-top: 5px solid teal;
+
+            border: 5px solid teal;
+        }
+
+        a {
+            border-bottom: 3px dotted tomato;
+            text-decoration: none;
+        }
+
+        /* when specifying a border-width we normally use px reather than
+        any other "elastic" unit */
+        .box-2 {
+            background-color: cyan;
+            border: 0.2rem solid teal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Main title</h1>
+    <div class="box box-1">some text...</div>
+    
+    <p>Lorem ipsum <a href="">dolor</a> sit amet, consectetur adipisicing elit. Ea vel, accusamus eos reiciendis, rerum, commodi quaerat earum molestiae ad aut quo. Repudiandae obcaecati neque, reiciendis nostrum animi quae quas repellendus.</p>
+    <div class="box box-2"></div>
+</body>
+</html>

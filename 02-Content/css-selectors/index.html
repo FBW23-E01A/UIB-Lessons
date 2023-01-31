@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: teal;
+            font-size: 1.5em;
+        }
+
+        /* 
+        target the paragraph which is inside an 
+        element with class .about 
+        */
+        .about p {
+            color: red;
+        }
+        .footer a {
+            background-color: tomato;
+            color: white; 
+        }
+
+        /* style only links that are inside of a list */
+        .special-ul a {
+            font-size: 1.5em;
+            text-decoration: none;
+        }
+
+        .home-link {
+            color: tomato;
+        }
+        .about-link {
+            color: teal;
+        }
+        .contact-link {
+            color: green;
+        }
+
+
+        .container {}
+
+        #main-title {}
+
+        .outer p {
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, expedita.</p>
+        <ul class="special-ul">
+            <li><a class="home-link" href="">home</a></li>
+            <li><a class="about-link" href="">about</a></li>
+            <li><a class="contact-link" href="">contact</a></li>
+        </ul>
+    </div>
+
+    <div class="about">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, labore sequi eligendi reprehenderit vel quis eaque voluptas minima culpa sed.</p>
+    </div>
+    
+    <div class="footer">
+        <a href="http://example.com">example.com</a>
+        <a href="https://developer.mozilla.org/">MDN</a>
+    </div>
+
+    <div class="outer">
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <p>deeply nested paragraph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
