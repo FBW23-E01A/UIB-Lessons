@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+}
+
+nav {
+  background-color: #f1f1f1;
+}
+
+nav ul {
+  margin: 0px;
+}
+
+main {
+  width: 500px;
+  margin: auto;
+  background-color: bisque;
+  height: 90vh;
+}
+
+.first {
+  margin: 0px;
+}
+
+.overflowTest {
+  height: 200px;
+  background-color: aqua;
+  overflow: auto;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+}
