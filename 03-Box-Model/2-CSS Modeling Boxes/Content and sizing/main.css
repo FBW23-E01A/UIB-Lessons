@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.text-1 {
+  width: 100px;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.div1 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.div2 {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid red;
+}
+
+.div3 {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+}
+
+.div4 {
+  width: 300px;
+  height: 110px;
+  padding: 50px;
+  border: 1px solid red;
+}

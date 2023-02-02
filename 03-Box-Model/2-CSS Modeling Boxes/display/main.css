@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+div,
+span,
+p,
+nav {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+p {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.none {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}

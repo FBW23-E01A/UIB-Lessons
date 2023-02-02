@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p class="text-1">
+      The border is drawn between the margin and the padding of a box. If you
+      are using the standard box model, the size of the border is added to the
+      width and height of the content box. If you are using the alternative box
+      model then the size of the border makes the content box smaller as it
+      takes up some of that available width and height of the element box.
+    </p>
+
+    <section>
+      <h1>Without box-sizing</h1>
+
+      <div class="div1">
+        This div is smaller (width is 300px and height is 100px).
+      </div>
+      <br />
+      <div class="div2">
+        This div is bigger (width is also 300px and height is 100px).
+      </div>
+    </section>
+
+    <section>
+      <h1>With box-sizing</h1>
+
+      <div class="div3">
+        This div is smaller (width is 300px and height is 100px).
+      </div>
+      <br />
+      <div class="div4">
+        This div is bigger (width is also 300px and height is 100px).
+      </div>
+    </section>
+  </body>
+</html>

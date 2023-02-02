@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 30px 10px;
+}
+
+/* border: width style color*/
+.text-1 {
+  margin-top: 40px;
+  border: 1px solid black;
+}
+
+.text-2 {
+  border: 5px dashed red;
+}
+
+.text-3 {
+  border-top: 3px solid blue;
+  border-right: 7px dashed green;
+  border-bottom: 9px dotted orange;
+  border-left: 6px double purple;
+}
