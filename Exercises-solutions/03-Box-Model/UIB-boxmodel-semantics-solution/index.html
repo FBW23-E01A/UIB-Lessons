@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Semantics</title>
+</head>
+
+<body>
+    <header>
+        <h1>It's a case of semantics</h1>
+    </header>
+    <main>
+        <section>
+            <article class="info-semantics">
+                <h3>Why use semantic elements?</h3>
+                <p>Some of the benefits from writing semantic markup are as follows:</p>
+                <ul>
+                    <li>Search engines will consider its contents as important keywords to influence the page's search
+                        rankings (see SEO)</li>
+                    <li>Screen readers can use it as a signpost to help visually impaired users navigate a page</li>
+                    <li>Finding blocks of meaningful code is significantly easier than searching though endless divs
+                        with or
+                        without semantic or namespaced classes
+                    </li>
+                    <li>Semantic naming mirrors proper custom element/component naming</li>
+                </ul>
+                <p>Source:
+                    <cite>
+                        <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank">MDN on
+                            Semantics</a>
+                    </cite>
+                </p>
+            </article>
+
+            <aside class="aside-semantics">
+                <h3>What elements should I use?</h3>
+                <p>When approaching which markup to use, ask yourself, "What element(s) best describe/represent the data
+                    that I'm going to populate?" For example, is it a list of data?; ordered, unordered?; is it an
+                    article with sections and an aside of related information?; does it list out definitions?; is it a
+                    figure or image that needs a caption?; should it have a header and a footer in addition to the
+                    global site-wide header and footer?; etc.
+                </p>
+                <p>Source: <cite>
+                        <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank">MDN on
+                            Semantics</a>
+                    </cite></p>
+            </aside>
+
+        </section>
+        <section>
+            <h2>Some generic HTML elements</h2>
+            <article class="info-elements">
+
+                <h3>Block level element</h3>
+                <p><code>div</code>: The HTML Content Division element is the generic container for flow
+                    content. It has no effect on the content or layout until styled using CSS.</p>
+
+                <h3>Inline level element</h3>
+                <p><code>span</code>: The HTML <span> element is a generic inline container for phrasing content, which
+                        does not inherently represent anything. It can be used to group elements for styling purposes
+                        (using the class or id attributes), or because they share attribute values, such as lang.</p>
+                <p>Source: <cite>
+                        <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics" target="_blank">MDN on Elements</a>
+                    </cite></p>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        Find out more about different elements!
+        <ul>
+            <li class="link-item"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements" target="_blank">Inline
+                    Elements</a></li>
+            <li class="link-item"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" target="_blank">Block
+                    Elements</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

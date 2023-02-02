@@ -1,0 +1,31 @@
+header {
+    border-bottom: 1px solid grey;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2, h3 {
+    text-decoration: underline;
+}
+
+main {
+    margin: auto 0;
+}
+
+.info-semantics {
+    width: 60%;
+    display: inline-block;
+
+}
+
+.aside-semantics {
+    width: 35%;
+    display: inline-block;
+}
+
+footer {
+    border-top: 1px solid grey;
+}
+
