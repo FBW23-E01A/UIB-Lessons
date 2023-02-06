@@ -1,0 +1,37 @@
+/* CSS - Cascading Style Sheet */
+/* 
+
+Specificity: defines how important a certain CSS rule is 
+
+Rule specificity: (0, 0, 0)
+*/
+
+/* (1, 0, 0) */
+#special-box {
+    background-color: hotpink;
+}
+
+.box {
+    border: 3px solid goldenrod;
+    height: 100px;
+    width: 100px;
+}
+/* (0, 1, 0) */
+.red {
+    background-color: red;
+    color: white;
+}
+
+/* (0, 1, 0) */
+.green {
+    background-color: green !important;
+    height: 150px;
+    width: 250px;
+}
+
+/* (id, class, type) */
+/* (0, 2, 1) */
+.container .box span {}
+
+
+/* !important */

@@ -1,0 +1,40 @@
+/* 
+
+z-index
+
+With this property we can control the order in which "positioned" 
+elements appear on the page. We control which element can appear in front of others
+*/
+header {
+    background-color: tomato;
+    position: fixed;
+    left: 0;
+    padding: 1.5rem;
+    top: 0;
+    width: 100%;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    z-index: -1;
+}
+
+.relative {
+    background-color: aquamarine;
+    position: relative;
+    top: -50px;
+}
+
+.absolute {
+    background-color: goldenrod;
+    position: absolute;
+    left: 25px;
+    top: 0;
+}
+
+
+
+body {
+    padding-top: 100px;
+}

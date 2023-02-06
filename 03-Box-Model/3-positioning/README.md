@@ -8,7 +8,7 @@ The `position` property can have 1 of the following 5 values:
 - `relative`
 - `absolute`
 - `fixed`
-- `sticky
+- `sticky`
 
 By default, every HTML element has the value `static` for `position`. These elements behave normally, like we've seen so far.
 
