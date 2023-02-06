@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    border: 3px solid teal;
+    border-radius: 1.5rem;
+    position: relative;
+    width: 300px;
+}
+
+.card img {
+    border-radius: 1.5rem;
+}
+
+
+.promotion {
+    background-color: red;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    right: -25px;
+    text-transform: uppercase;
+    top: 5px;
+}
+
+.content {
+    padding: 0.75rem;
+}
+
+.button {
+    background-color: teal;
+    border-radius: 1rem;
+    color: white;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
