@@ -1,0 +1,11 @@
+h1, h2, h3 {
+    font-family: 'Notable', sans-serif;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.code {
+    font-family: 'Courier New', Courier, monospace;
+}
