@@ -1,0 +1,12 @@
+.text-1 {
+  text-transform: capitalize;
+  text-shadow: 5px 5px 5px red, 10px 10px 5px blue, 15px 15px 5px green;
+}
+
+.text-2 {
+  text-align: justify;
+}
+
+.text-3 {
+  direction: rtl;
+}

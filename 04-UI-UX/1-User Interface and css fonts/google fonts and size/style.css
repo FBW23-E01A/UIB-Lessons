@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@400;700&family=Roboto+Slab:wght@700&display=swap");
+
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
+
+:root {
+  font-size: 40px;
+}
+
+body {
+  font-family: "Montserrat", Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
+}
+
+pre {
+  font-family: "Inconsolata", monospace;
+  background-color: rgba(0, 0, 0, 0.786);
+  color: white;
+}
+.section-1 {
+  font-size: 10px;
+}
+
+.text-1 {
+  /* Perant font size * 1.5 */
+  font-size: 1.5em;
+}
+
+.section-2 {
+  /* Root font * 0.8 */
+  font-size: 0.8rem;
+}
+
+.text-2 {
+  font-size: 1.3em;
+}

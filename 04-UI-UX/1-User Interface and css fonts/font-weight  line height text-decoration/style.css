@@ -1,0 +1,13 @@
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+.section-1 h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.section-2 p {
+  line-height: 1.5;
+  text-decoration: underline wavy red 3px;
+}
