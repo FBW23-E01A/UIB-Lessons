@@ -1,0 +1,91 @@
+/* 
+pseudo classes:
+
+:hover
+:visited
+:active
+*/
+
+/*
+pseudo elements
+
+::before
+::after
+
+*/
+
+p::first-line {
+  color: blue;
+}
+
+p::first-letter {
+  font-size: 3em;
+}
+
+p::selection {
+  background-color: yellow;
+}
+
+p::before {
+  background-color: tomato;
+  content: "";
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+p::after {
+  background-color: teal;
+  content: "";
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.pseudo li::after {
+  content: "‣";
+  margin-left: 0.5rem;
+}
+
+.pseudo li.last::after {
+  content: "";
+  margin-left: 0.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+.picture {
+  margin: auto;
+  position: relative;
+  width: 300px;
+}
+
+.picture::before {
+  background-color: tomato;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 100px;
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  width: 100px;
+  z-index: -1;
+}
+.picture::after {
+  background-color: teal;
+  content: "\2023";
+  display: block;
+  height: 100px;
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  width: 100px;
+  z-index: -1;
+}

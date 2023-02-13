@@ -1,0 +1,33 @@
+h1 {
+    text-shadow: 5px 5px magenta, 10px 10px cyan, 20px 20px yellow;
+}
+.container {
+    box-shadow:
+  36.5px 37.1px 17.1px rgba(0, 0, 0, 0.07),
+  53.9px 54.8px 47.3px rgba(0, 0, 0, 0.092),
+  68.6px 69.7px 114px rgba(0, 0, 0, 0.103),
+  124px 126px 378px rgba(0, 0, 0, 0.14)
+;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.button {
+    background-color: yellow;
+    box-shadow: 0 0.3rem 0 #333;
+    color: #333;
+    border: 3px solid #333;
+    border-radius: 0.75rem;
+    display: inline-block;
+    padding: 0.75rem;
+}
+
+.button:active {
+    box-shadow: 0 0.1rem 0 #333;
+}
+
+.inside {
+    background-color: #ddd;;
+    border: 1px solid black;
+    box-shadow: inset 10px 10px #ddd;
+}
