@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul {
+        font-size: 2em;
+      }
+      .nav li {
+        display: inline-block;
+      }
+
+      li::after {
+        content: "/";
+        margin-left: 0.5rem;
+      }
+      /* li.last::after {
+        content: "";
+      } */
+      /* :last-child */
+      li:last-child::after {
+        content: "";
+      }
+
+      li:last-child {
+        background-color: tomato;
+      }
+
+      .container {
+        border: 3px solid goldenrod;
+        margin-bottom: 1.5rem;
+      }
+      .container p:last-child {
+        background-color: purple;
+      }
+      
+      .container :last-child {
+        color: hotpink;
+      }
+
+      .container :first-child {
+        border-bottom: 3px solid greenyellow;
+      }
+
+      /* 
+      even numbers: 2, 4, 6, 8, 10, 12...
+      odd numbers: 1, 3, 5, 7, 9, 11...
+      */
+
+      .todo-list li:nth-child(even) {
+        background-color: grey;
+      }
+
+
+      .box {
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+      }
+
+      /* 
+      odd: 2n + 1
+      even: 2n
+      */
+      .box:nth-child(even) {
+        background-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Work</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <div class="container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, facere.</p>
+        <div>Another div</div>
+        <a href="#">some link</a>
+        <p>another paragraph</p>
+        <span>a span</span>
+    </div>
+
+    <div class="container">
+        <span>span in second container</span>
+        <p>last child paragraph</p>
+    </div>
+
+    <div class="container">
+        <span>span in second container</span>
+        <p>last child paragraph</p>
+        <a href="#">a link</a>
+        <p>another paragraph</p>
+    </div>
+    <div class="container">
+        <ul>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+        </ul>
+    </div>
+
+    <ul class="todo-list">
+        <li>clean apartment</li>
+        <li>buy groceries</li>
+        <li>learn javascript</li>
+        <li>call parents</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+    </ul>
+
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+  </body>
+</html>

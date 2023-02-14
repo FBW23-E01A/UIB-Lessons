@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+        }
+
+        .box:not(.special) {
+            background-color: tomato;
+        }
+
+        .box:not(:nth-child(4)) {
+            font-size: 3em;
+        }
+
+        /* .special {
+            background-color: transparent;
+        } */
+        .nav {
+            font-size: 1.5em;
+        }
+
+        .nav li {
+            display: inline-block;
+        }
+
+        .nav li:not(:last-child)::after {
+            content: "/";
+            margin-left: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="boxes">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box special">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+        <div class="box">13</div>
+        <div class="box">14</div>
+        <div class="box">15</div>
+        <div class="box">16</div>
+        <div class="box">17</div>
+        <div class="box">18</div>
+        <div class="box">19</div>
+        <div class="box">20</div>
+    </div>
+    
+</body>
+</html>
