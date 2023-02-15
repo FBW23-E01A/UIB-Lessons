@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav>Navbar</nav>
+
+    <main>
+      <form>
+        <label for="fullName">Full Name:</label>
+        <input
+          class="w-half mx-4"
+          type="text"
+          id="fullName"
+          name="fullName"
+          maxlength="20"
+          minlength="5"
+          required
+        />
+
+        <p><strong>Note:</strong>The default maximum cahracter lenght is 20.</p>
+
+        <label for="password">Password:</label>
+
+        <input class="w-half mx-4" type="password" id="password" />
+
+        <br />
+        <br />
+
+        <input type="submit" value="SEND" />
+
+        <input type="reset" value="RESET" />
+      </form>
+
+      <form action="" id="favColor">
+        <p>Kindly Select your favorite color</p>
+        <input type="radio" name="color" value="red" checked /> Red
+        <input type="radio" name="color" value="blue" /> Blue
+        <input type="radio" name="color" value="pink" /> Pink
+      </form>
+
+      <form action="">
+        <p>Kindly Select your favourite sports</p>
+        <input
+          type="checkbox"
+          name="sport_1"
+          value="cricket"
+          checked
+        />Cricket<br />
+        <input type="checkbox" name="sport_2" value="tennis" />Tennis<br />
+
+        <br />
+        <input
+          type="button"
+          value="SEND"
+          onclick="console.log('Hi In am write my first js code!')"
+        />
+
+        <p>Upload your image:</p>
+        <input type="file" />
+      </form>
+    </main>
+
+    <footer>Footer</footer>
+  </body>
+</html>
