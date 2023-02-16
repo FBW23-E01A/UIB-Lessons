@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+
+.content{
+	width: 85%;
+	margin: 2rem auto;
+}
+
+td, th{
+	padding: 0.625rem 1.25rem 0.625rem 0.625rem;
+}
+tbody tr:first-child {
+	background: #888888;
+	text-align: left;
+	color: #ffffff;
+}
+
+/* .table tr th{
+	background: #888888;
+	text-align: left;
+	color: #ffffff;
+} */
+
+.table tr:nth-child(odd) td {
+  background: #efefef;
+}
+  
+.table tr:nth-child(even) td {
+  background: #c0c0c0;
+}  
+
+.table tr:nth-child(3n+1) td:nth-child(2n) {
+  background: #ffbbbb;
+}
