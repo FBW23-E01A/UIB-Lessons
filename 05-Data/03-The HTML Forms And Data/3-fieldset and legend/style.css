@@ -23,24 +23,7 @@ form {
   display: block;
 }
 
-.w-full {
-  width: 100%;
+.w-max {
+  width: 80px;
+  display: inline-block;
 }
-
-.w-half {
-  width: 50%;
-}
-
-.mx-4 {
-  margin-left: 4em;
-  margin-right: 4em;
-}
-
-input[type="text"],
-input[type="email"] {
-  width: 50%;
-}
-
-/*input:not(input[type="text"]) {
-  border: 1px solid red;
-}*/

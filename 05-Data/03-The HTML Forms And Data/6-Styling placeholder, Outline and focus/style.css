@@ -1,0 +1,43 @@
+nav,
+footer {
+  padding: 5px;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+form {
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.input-1:focus {
+  width: 50%;
+}
+
+.input-2:focus {
+  outline-color: red;
+  outline-style: dotted;
+}
+
+.input-3:focus {
+  outline: 2px solid red;
+}
+
+.text {
+  border: 2px solid blue;
+  outline: 5px solid green;
+}
+
+.input-3::placeholder {
+  color: rgb(191, 0, 255);
+  font-size: 10px;
+}
