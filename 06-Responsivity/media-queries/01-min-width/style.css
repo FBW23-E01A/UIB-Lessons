@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: tomato;
+}
+
+/* if the viewport is larger than 700px, change to background */
+/* if the viewport is AT LEAST 700px */
+/* if the viewport has minimum 700px width (min-width) */
+@media (min-width: 700px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* 
+- if the viewport is larger than 700px, change the background
+color to green
+*/

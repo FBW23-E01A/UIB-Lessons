@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+}
+
+/* if the viewport is SMALLER than 800px, change to background */
+/* if the viewport has maximum 800px width (max-width) */
+@media (max-width: 800px) {
+  body {
+    background-color: violet;
+  }
+}
+
+/* 
+- if the viewport is larger than 700px, change the background
+color to green
+*/

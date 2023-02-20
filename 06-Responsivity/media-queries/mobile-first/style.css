@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: auto;
+  max-width: 900px;
+}
+
+.column-1 {
+  background-color: tomato;
+}
+.column-2 {
+  background-color: teal;
+}
+.column-3 {
+  background-color: goldenrod;
+}
+
+@media (min-width: 780px) {
+  .column {
+    display: inline-block;
+    padding: 1rem;
+    vertical-align: top;
+    width: 25%;
+  }
+}
+
+@media (min-width: 900px) {
+    section img {
+        float: left;
+        margin: 0 1rem 1rem 0;
+        width: 300px;
+    }
+}
