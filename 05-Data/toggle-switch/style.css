@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.toggle-switch {
+    border: 1px solid red;
+    display: block;
+    height: 30px;
+    width: 60px;
+    position: relative;
+}
+
+.toggle-switch input {
+    position: absolute;
+    height: 0;
+}
+.slider {
+    background-color: tomato;
+    border: 1px solid black;
+    display: block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* sibgling combinator: + */
+
+input:checked + .slider {
+    left: auto;
+    right: 0;
+}
