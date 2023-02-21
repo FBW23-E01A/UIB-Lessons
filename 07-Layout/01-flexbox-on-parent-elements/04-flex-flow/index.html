@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* flex container */
+        /* 
+        flex-flow:
+
+        it's a short hand for using flex-direction
+        and flex-wrap in one line
+        */
+        .container {
+            border: 5px solid teal;
+            display: flex;
+            flex-flow: column wrap;
+            height: 500px;
+        }
+
+
+        .box {
+            background-color: tomato;
+            border: 3px solid goldenrod;
+            font-size: 3em;
+            padding: 1.5rem;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+        <div class="box box-3">3</div>
+        <div class="box box-4">4</div>
+        <div class="box box-5">5</div>
+        <div class="box box-5">6</div>
+        <div class="box box-5">7</div>
+        <div class="box box-5">8</div>
+        <div class="box box-5">9</div>
+        <div class="box box-5">10</div>
+        <div class="box box-5">11</div>
+    </div>
+
+    
+</body>
+</html>
