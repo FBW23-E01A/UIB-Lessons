@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <style>
+      .container {
+        background-color: aquamarine;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      .item {
+        background-color: red;
+        margin: 10px;
+        padding: 10px;
+        font-size: 30px;
+      }
+
+      .item-2 {
+        flex-basis: 100px;
+      }
+
+      .item-4 {
+        flex-basis: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item-1"><span>1</span></div>
+      <div class="item item-2">
+        <span
+          >This defines the default size of an element before the remaining
+          space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a
+          keyword. The auto keyword means “look at my width or height property”.
+          The content keyword means “size it based on the item’s content”.</span
+        >
+      </div>
+      <div class="item item-3"><span>3</span></div>
+      <div class="item item-4"><span>4</span></div>
+      <div class="item item-5"><span>5</span></div>
+      <div class="item item-6">
+        <span
+          >This defines the default size of an element before the remaining
+          space is distributed. It can be a length (e.g. 20%, 5rem, etc.) or a
+          keyword. The auto keyword means “look at my width or height property”.
+          The content keyword means “size it based on the item’s content”.</span
+        >
+      </div>
+    </div>
+  </body>
+</html>

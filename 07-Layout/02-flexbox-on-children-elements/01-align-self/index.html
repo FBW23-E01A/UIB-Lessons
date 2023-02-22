@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <style>
+      .container,
+      .container-2 {
+        background-color: aquamarine;
+        display: flex;
+        height: 200px;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+
+      .item,
+      .test {
+        background-color: brown;
+        margin: 10px;
+        width: 100px;
+      }
+
+      .item-2 {
+        align-self: end;
+      }
+
+      .item-4 {
+        align-self: start;
+      }
+
+      .item-6 {
+        align-self: end;
+      }
+
+      .item:nth-child(1) {
+        align-self: start;
+      }
+
+      .test:nth-child(odd) {
+        align-self: start;
+      }
+
+      .test:nth-child(even) {
+        align-self: end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item-1">1</div>
+      <div class="item item-2">2</div>
+      <div class="item item-3">3</div>
+      <div class="item item-4">4</div>
+      <div class="item item-5">5</div>
+      <div class="item item-6">6</div>
+    </div>
+
+    <div class="container-2">
+      <div class="test test-1">1</div>
+      <div class="test test-2">2</div>
+      <div class="test test-3">3</div>
+      <div class="test test-4">4</div>
+      <div class="test test-5">5</div>
+      <div class="test test-6">6</div>
+    </div>
+  </body>
+</html>
