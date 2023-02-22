@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgba(128, 128, 128, 0.692);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background-color: brown;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+nav ul li:not(.menu) {
+  display: none;
+}
+
+header section:nth-child(1) {
+  display: flex;
+  background-image: url(https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_.jpg);
+}
+
+header section:nth-child(2) {
+  background-image: url(https://assets-homepages-learning.3plearning.net/wp-content/uploads/2020/06/blog-20-student-engagement-strategies-captivating-classroom.png);
+}
+
+header section {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+  margin: auto;
+  writing-mode: vertical-lr;
+}
+
+@media (min-width: 550px) {
+  nav ul li:not(.menu) {
+    display: block;
+  }
+
+  nav ul li.menu {
+    display: none;
+  }
+  header {
+    display: flex;
+  }
+
+  header section {
+    width: 50%;
+  }
+
+  header section:nth-child(1) {
+    border-right: 2px solid red;
+  }
+}
