@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 
+      fr: fractional unit
+      */
+.container {
+  border: 3px solid teal;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: 100px repeat(5, 1fr) 50px;
+}
+
+.item {
+  background-color: tomato;
+  border: 3px solid goldenrod;
+  font-size: 1.5em;
+  padding: 1.5rem;
+}

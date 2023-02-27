@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 
+      fr: fractional unit
+      */
+.container {
+  border: 3px solid teal;
+  display: grid;
+  /* gap: 1.5rem; */
+  /* gap: 1.5rem 3rem; */
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  grid-template-columns: 1fr minmax(300px, 1fr) 1fr;
+  /* grid-template-columns: 1fr minmax(auto, 400px) 1fr; */
+}
+
+.item {
+  background-color: tomato;
+  border: 3px solid goldenrod;
+  font-size: 1.5em;
+  padding: 1.5rem;
+}
