@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.item {
+    font-size: 1.5em;
+    padding: 0.5rem;
+}
+.item-1 {
+  background-color: tomato;
+  align-self: end;
+  justify-self: end;
+}
+.item-2 {
+  background-color: teal;
+  align-self: center;
+  justify-self: end;
+}
+.item-3 {
+  background-color: hotpink;
+  align-self: start;
+  justify-self: end;
+}
+.item-4 {
+  background-color: gold;
+}
+.item-5 {
+  background-color: forestgreen;
+}

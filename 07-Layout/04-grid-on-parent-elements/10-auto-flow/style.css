@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 
+      fr: fractional unit
+      */
+.container {
+  border: 3px solid teal;
+  display: grid;
+  /* gap: 1.5rem; */
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100px 100px 100px;
+  grid-auto-columns: 70px;
+  /* place-items: center; */
+  grid-auto-flow: column;
+
+  justify-content: stretch;
+  align-content: stretch;
+}
+
+.item {
+  background-color: tomato;
+  border: 3px solid goldenrod;
+  /* border-radius: 50%; */
+  font-size: 1.5em;
+  padding: 1.5rem;
+  /* width: 100px;
+  height: 100px; */
+}

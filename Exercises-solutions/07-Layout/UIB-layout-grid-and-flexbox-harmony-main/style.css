@@ -1,0 +1,59 @@
+/* Original styles - don't edit these! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg1 {
+  background: url(bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg2 {
+  background: url(bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Add your styles below here*/
+
+/** 
+- explicit tracks: these are columns and rows that we explicitly defined using 
+  one of the grid-template- property
+  - explicit columns
+  - explicit rows 
+
+- implicit tracks: these are columns and rows that are created automatically when
+there are more elements than available cells in the grid 
+*/
+.container {
+  background-color: #333;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(10, 250px); */
+  grid-auto-rows: 250px;
+  gap: 0.5em;
+}
+
+.bg1, .bg2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 100px;
+  padding-top: 100px; */
+}
+
+.bg1 div, .bg2 div {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #eee;
+  padding: 5px;
+  margin: 5px;
+}
+
+.bg1:hover, .bg2:hover {
+  box-shadow: inset 2px 2px 10px black;
+}
