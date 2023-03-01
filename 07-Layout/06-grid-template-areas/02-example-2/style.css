@@ -1,0 +1,43 @@
+header {
+  grid-area: header;
+  background-color: #f00;
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: #0f0;
+}
+
+main {
+  grid-area: main;
+  background-color: #00f;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #ff0;
+}
+body {
+  display: grid;
+  /* 100px 100px 100px 100px 100px 100px ==> repeat(6, 100px)*/
+  grid-template-rows: repeat(6, 100px);
+  grid-template-areas:
+    "header"
+    "sidebar"
+    "sidebar"
+    "main"
+    "main"
+    "footer";
+}
+
+@media (min-width: 750px) {
+  body {
+    grid-template-rows: repeat(5, 100px);
+    grid-template-areas:
+      "header header header header"
+      "sidebar main main main"
+      "sidebar main main main"
+      "sidebar main main main"
+      "footer footer footer footer";
+  }
+}

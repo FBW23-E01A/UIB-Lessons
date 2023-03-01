@@ -1,0 +1,33 @@
+.navbar,
+.main,
+.footer {
+  text-align: center;
+}
+
+.navbar,
+.footer {
+  padding: 10px;
+}
+
+.main {
+  grid-area: main;
+  padding: 50px;
+  background-color: blue;
+}
+
+.navbar {
+  grid-area: navbar;
+  background-color: green;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: red;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "main main main navbar"
+    "footer footer footer footer";
+}

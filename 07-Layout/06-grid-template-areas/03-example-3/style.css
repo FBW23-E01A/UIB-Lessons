@@ -1,0 +1,29 @@
+main {
+  grid-area: main;
+  background-color: #00f;
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: #0f0;
+}
+nav {
+  grid-area: navbar;
+  background-color: #f00;
+}
+footer {
+  grid-area: footer;
+  background-color: #ff0;
+}
+
+.container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100px 300px 100px 100px;
+  grid-template-areas:
+    "navbar navbar navbar"
+    "sidebar main    ."
+    ".       main    ."
+    "footer footer .";
+}
