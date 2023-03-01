@@ -1,0 +1,63 @@
+header {
+  grid-area: header;
+  display: flex;
+  background-color: bisque;
+}
+
+header h1,
+header nav {
+  width: 50%;
+}
+header h1 {
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  grid-area: main;
+  background-color: burlywood;
+}
+.aside-1 {
+  grid-area: aside-1;
+  background-color: cadetblue;
+}
+
+.aside-2 {
+  grid-area: aside-2;
+  background-color: chartreuse;
+}
+
+section {
+  grid-area: section;
+  background-color: chocolate;
+}
+
+footer {
+  grid-area: footer;
+  background-color: coral;
+}
+
+body {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 60px 200px 100px 60px;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "main  main  aside-1"
+    "aside-2 section aside-1"
+    "footer footer footer";
+}
