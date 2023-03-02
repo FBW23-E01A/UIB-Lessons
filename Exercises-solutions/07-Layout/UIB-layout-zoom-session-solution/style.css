@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #282b28;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #222222;
+}
+
+h1 {
+  text-align: center;
+  padding: 2.4rem 0;
+  color: #efefef;
+  font-size: 4.2rem;
+}
+
+.img-container {
+  max-width: 85%;
+  margin: 16rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.6rem;
+}
+
+.img-container > .img-thumbnail {
+  height: 26rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1.2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.img-container > .img-thumbnail:nth-child(1) {
+  background-image: url("assets/student-1.jpeg");
+}
+
+.img-container > .img-thumbnail:nth-child(2) {
+  background-image: url("assets/student-2.jpeg");
+}
+
+.img-container > .img-thumbnail:nth-child(3) {
+  background-image: url("assets/student-3.jpeg");
+}
+
+.img-container > .img-thumbnail:nth-child(4) {
+  background-image: url("assets/student-4.jpeg");
+}
+
+.img-container > .img-thumbnail:nth-child(5) {
+  background-image: url("assets/student-5.jpeg");
+}
+
+.img-container > .img-thumbnail:nth-child(6) {
+  background-image: url("assets/student-6.jpeg");
+}
+
+.img-container > .img-thumbnail:nth-child(7) {
+  background-image: url("assets/student-7.jpeg");
+}
+
+.img-container > .img-thumbnail:nth-child(8) {
+  background-image: url("assets/student-8.jpeg");
+}
+
+.img-container > .img-thumbnail:nth-child(9) {
+  background-image: url("assets/student-9.jpeg");
+}
+
+.img-thumbnail p {
+  font-size: 2.6rem;
+  background-color: #6969697e;
+  padding: 4px;
+}
+
+.img-thumbnail i {
+  font-size: 4rem;
+  color: #06b306;
+}
+
+.dashboard {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #222222;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard i,
+p {
+  color: #efefef;
+}
+
+.dashboard i {
+  font-size: 2.8rem;
+}
+
+.dashboard p {
+  font-size: 2rem;
+  padding: 8px 0;
+}
+
+.dashboard > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+input[type="button"] {
+  padding: 1rem 3.2rem;
+  font-size: 2rem;
+  color: #efefef;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
