@@ -1,0 +1,32 @@
+.container div,
+.container-2 div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  background-color: #2196f3;
+}
+
+.container {
+  gap: 10px;
+  display: grid;
+  padding: 10px;
+  /* repeat(6, 1fr) ==> 1fr 1fr 1fr 1fr 1fr 1fr */
+  /* repeat(4, 100px) ==> 100px 100px 100px 100px  */
+  /* repeat(3, 10%) ==> 10% 10% 10%  */
+  /* repeat(3, 2fr 50px) ==> 2fr 50px 2fr 50px 2fr 50px  */
+  /* repeat(2, 3fr 200px 20%) ==> 3fr 200px 20% 3fr 200px 20% */
+  /* wrong  repeat(3fr 200px 20%, 2) ==> ERROR */
+  /* repeat(3, minmax(100px, 200px)) ==> minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px)  */
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr minmax(100px, 200px);
+  margin-bottom: 300px;
+}
+
+.container-2 {
+  margin-bottom: 300px;
+  display: grid;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
