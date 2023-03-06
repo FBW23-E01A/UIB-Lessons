@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    border: 3px solid teal;
+}
+
+.trigger-animation {
+    /* border: 3px solid red; */
+    width: 100px;
+}
+
+.box-1 {
+    border: 5px solid goldenrod;
+    background-color: tomato;
+    /* transition-duration: 0.5s; */
+    transition-duration: 1000ms;
+    transition-property: transform, background-color;
+    /* transition-delay: 1000ms; */
+    transition-timing-function: ease-in-out;
+}
+
+.trigger-animation:hover .box-1 {
+    background-color: teal;
+    transform: translate(50px, 50px) scale(1.2) rotate(90deg);
+}
+
+.timing-container {
+    border: 3px solid black;
+}
+
+.timing-container .box {
+    transition-duration: 3000ms;
+}
+
+.timing-container:hover .box {
+    transform: translateX(400px);
+}
+
+
+.box-2 {
+    background-color: goldenrod;
+    transition-timing-function: ease-in;
+}
+.box-3 {
+    background-color: paleturquoise;
+    transition-timing-function: ease-out;
+}
+
+.box-4 {
+    background-color: lightpink;
+    transition-timing-function: ease-in-out;
+}
+.box-5 {
+    background-color: slateblue;
+    transition-timing-function: linear;
+}
+
+.box-6 {
+    background-color: green;
+    transition-timing-function: cubic-bezier(.33,1.6,.25,-0.18);
+}

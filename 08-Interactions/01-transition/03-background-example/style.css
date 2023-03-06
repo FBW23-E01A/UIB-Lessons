@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    font-size: 3em;
+    list-style-type: none;
+}
+
+.nav li{
+    margin-left: 1rem;
+    padding: 0.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.nav li::before {
+    background-color: grey;
+    border-radius: 16px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transition-duration: 300ms;
+    transform: scale(0);
+}
+
+.nav li:hover::before {
+    transform: scale(1);
+}
+
+.nav a {
+    text-decoration: none;
+}
