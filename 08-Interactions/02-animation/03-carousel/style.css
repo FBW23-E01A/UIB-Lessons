@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    border: 1px solid white;
+    height: 300px;
+    margin: 4rem auto;
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    animation-name: slide;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+}
+
+.box-1 {
+    animation-delay: 3000ms;
+    background-color: tomato;
+    transform: translate(-50%, -50%);
+}
+.box-2 {
+    animation-delay: 4000ms;
+    background-color: gold;
+    transform: translate(150%, -50%);
+}
+.box-3 {
+    animation-delay: 5000ms;
+    background-color: hotpink;
+    transform: translate(-250%, -50%);
+}
+
+@media (prefers-reduced-motion) {
+    .box {
+        animation-play-state: paused;
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(150%, -50%);
+    }
+    50% {
+        transform: translate(-50%, -50%);
+    }
+   
+    100% {
+        transform: translate(-250%, -50%);
+    }
+
+}

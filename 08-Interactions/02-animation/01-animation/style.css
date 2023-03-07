@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.trigger {
+    border: 3px solid red;
+    height: 350px;
+    width: 350px;
+}
+.box-1 {
+  background-color: black;
+  animation-duration: 3000ms;
+  animation-name: change-background;
+  /* animation-iteration-count: infinite; */
+  animation-delay: 5000ms;
+  animation-timing-function: cubic-bezier(1, 0.71, 0, 1.46);
+  /* animation-direction: normal; */
+  /* animation-direction: reverse;  */
+  /* animation-direction: alternate;  */
+  /* animation-direction: alternate-reverse; */
+  /* animation-fill-mode: backwards; */
+  animation-play-state: paused;
+}
+
+.box-1:hover {
+  animation-play-state: paused;
+}
+
+.trigger:hover .box-1 {
+    animation-play-state: running;
+}
+
+/* 
+We want to change the color of the element in 4 steps:
+
+- first tomato
+- then teal
+- then goldenrod 
+- then hotpink 
+- and then starts again
+*/
+
+@keyframes change-background {
+  0% {
+    background-color: tomato;
+    transform: translate(0, 0);
+  }
+  25% {
+    background-color: teal;
+    transform: translate(200px, 0);
+  }
+  50% {
+    background-color: goldenrod;
+    transform: translate(200px, 200px);
+  }
+  75% {
+    background-color: greenyellow;
+    transform: translate(0, 200px);
+  }
+  100% {
+    background-color: hotpink;
+    transform: translate(100px, 200px);
+  }
+}
+
+
+.button {
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.75rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    animation-name: pulse;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}

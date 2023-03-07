@@ -20,10 +20,13 @@
     border: 5px solid goldenrod;
     background-color: tomato;
     /* transition-duration: 0.5s; */
+    /* transition-property: all; */
+    /* transition-delay: 1000ms; */
     transition-duration: 1000ms;
     transition-property: transform, background-color;
-    /* transition-delay: 1000ms; */
     transition-timing-function: ease-in-out;
+    /* transition: 1000ms all ease-in-out; */
+     /* transition: transform 1000ms ease-in-out, background-color 1000ms ease-in-out; */
 }
 
 .trigger-animation:hover .box-1 {

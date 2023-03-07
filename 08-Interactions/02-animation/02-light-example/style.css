@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121517;
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  background-color: transparent;
+  border: 3px solid azure;
+  height: 100px;
+  width: 100px;
+  animation-name: light;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-play-state: paused;
+}
+
+.container:hover .box {
+  animation-play-state: running;
+}
+
+@keyframes light {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgba(255, 255, 0, 0.698);
+    transform: scale(1.1);
+    /* transform: translateY(-5px); */
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+/* .box-1 {
+    animation-delay: 200ms;
+}
+.box-2 {
+    animation-delay: 400ms;
+}
+
+.box-3 {
+    animation-delay: 600ms;
+} */
+
+.box:nth-child(1) {
+    animation-delay: 200ms;
+}
+.box:nth-child(2) {
+    animation-delay: 400ms;
+}
+
+.box:nth-child(3) {
+    animation-delay: 600ms;
+}
