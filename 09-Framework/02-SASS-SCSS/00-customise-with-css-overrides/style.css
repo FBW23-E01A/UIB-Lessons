@@ -1,0 +1,11 @@
+.bg-primary {
+    background-color: tomato !important;
+}
+
+a, .text-primary {
+    color: tomato !important;
+}
+
+/* a {
+    color: tomato !important;
+} */

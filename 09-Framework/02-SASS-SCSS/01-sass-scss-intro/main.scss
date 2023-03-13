@@ -1,0 +1,63 @@
+$primary-color: tomato;
+$secondary-color: teal;
+$white-color: #ddd;
+$black-color: #333;
+$margin: 1.25rem;
+$box-size: 150px;
+$border: 3px solid $secondary-color;
+$small-breakpoint: 512px;
+$medium-breakpoint: 780px;
+$large-breakpoint: 1024px;
+
+body {
+    background-color: $black-color;
+    color: $white-color;
+}
+
+h1 {
+    color: $primary-color;
+}
+
+a {
+    color: $primary-color;
+}
+
+.main-nav {
+    background-color: $primary-color;
+    a {
+        color: $white-color;
+    }
+}
+
+// .main-nav a {
+//     color: $white-color;
+// }
+
+.main-footer {
+    background-color: $secondary-color;
+    a {
+        color: $white-color;
+    }
+}
+
+// .main-footer a {
+//     color: $white-color;
+// }
+
+.box {
+    border: $border;
+    background-color: $primary-color;
+    height: $box-size;
+    width: $box-size;
+}
+
+@media (min-width: $small-breakpoint) {
+    body {
+        background-color: $secondary-color;
+    }
+}
+@media (min-width: $medium-breakpoint) {
+    body {
+        background-color: $primary-color;
+    }
+}

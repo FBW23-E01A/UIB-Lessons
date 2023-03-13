@@ -1,0 +1,10 @@
+/* 
+$main-color by default is equal to "limegreen",
+but if the variable $main-color already existed before with 
+a different value, then that value will be used
+*/
+body {
+  background-color: tomato;
+}
+
+/*# sourceMappingURL=style.css.map */

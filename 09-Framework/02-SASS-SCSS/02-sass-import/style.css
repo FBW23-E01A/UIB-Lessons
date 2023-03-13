@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  color: #ddd;
+}
+
+h1 {
+  color: tomato;
+}
+
+a {
+  color: tomato;
+}
+
+.main-nav {
+  background-color: tomato;
+}
+.main-nav a {
+  color: #ddd;
+}
+
+.main-footer {
+  background-color: teal;
+}
+.main-footer a {
+  color: #ddd;
+}
+
+.box {
+  border: 3px solid teal;
+  background-color: tomato;
+  height: 150px;
+  width: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */
