@@ -1,0 +1,23 @@
+header {
+  background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer .nav-link {
+    color: $white;
+}
+
+footer .nav-link:hover {
+    color: $white;
+    text-decoration: underline;
+}
+
+.vh-30 {
+    height: 30vh;
+}
