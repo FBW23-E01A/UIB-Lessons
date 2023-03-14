@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+        font-size: 1.25rem;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      .flex {
+        display: flex;
+      }
+
+      .content {
+        flex-basis: 50%;
+      }
+
+      .profile-picture {
+        border: 3px solid tomato;
+        border-radius: 50%;
+        height: 200px;
+        overflow: hidden;
+        width: 200px;
+      }
+
+      .profile-picture img {
+        
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header class="">
+      <h1>Nami Robin</h1>
+      <p>Web Developer / Designer / Photographer</p>
+    </header>
+    <section class="about-section">
+      <div class="flex">
+        <div class="content">
+          <h2>About</h2>
+          <p>
+            Hi there, my name is Nami. I'm a photographer based in Berlin,
+            currently studying to become a full-stack web developer. I love
+            front-end stuff, especially HTML/CSS. I am a naturally curious
+            person and passionate about learning new technologies, that's why
+            I'm studying the backend now. In my free time you can find me
+            skating or playing with my cat.
+          </p>
+        </div>
+        <div class="profile-picture"><img src="skate-cat.png" /></div>
+      </div>
+    </section>
+    <section class="skills-section"></section>
+    <section class="project-section"></section>
+    <section class="contacts-section"></section>
+  </body>
+</html>
