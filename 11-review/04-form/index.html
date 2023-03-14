@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form-field {
+        margin-bottom: 1rem;
+      }
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+      textarea:focus,
+      input:focus {
+        outline-color: blue;
+      }
+      input[type="radio"],
+      input[type="checkbox"] {
+        accent-color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="form-field">
+        <label for="first-name">First name *</label>
+        <input maxlength="4" id="first-name" name="first-name" type="text" />
+      </div>
+      <div class="form-field">
+        <label for="last-name">Last name *</label>
+        <input id="last-name" name="last-name" type="text" />
+      </div>
+      <div class="form-field">
+        <fieldset>
+          <legend>Favourite hobbies</legend>
+          <label
+            ><input name="hobbies" type="checkbox" value="reading" />
+            Reading</label
+          >
+          <label
+            ><input name="hobbies" type="checkbox" value="drawing" />
+            Drawing</label
+          >
+          <label><input name="hobbies" type="checkbox" /> Skating </label>
+          <label><input name="hobbies" type="checkbox" /> Music</label>
+        </fieldset>
+      </div>
+      <div class="form-field">
+        <p>Preferred pronouns</p>
+        <label
+          ><input type="radio" name="pronoun" value="he/him" />he/him</label
+        >
+        <label
+          ><input type="radio" name="pronoun" value="she/her" />she/her</label
+        >
+        <label><input type="radio" name="pronoun" />they/them</label>
+        <label><input type="radio" name="pronoun" />not specified</label>
+      </div>
+      <div class="form-field">
+        <label for="something">Select something</label>
+        <select id="something" name="something">
+          <option value="option-1">option 1</option>
+          <option>option 2</option>
+          <option>option 3</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="biography">Biography</label>
+        <textarea minlength="100" id="biography" name="biography"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

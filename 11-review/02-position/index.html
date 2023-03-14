@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding-top: 7em;
+      }
+
+      img {
+        max-width: 100%;
+      }
+      .main-nav {
+        background-color: rgba(255, 99, 71, 0.624);
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 960px;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+      /* 
+      .work-section {
+        padding-top: 100px;
+      } */
+      .back-to-top {
+        background-color: rgba(255, 99, 71, 0.851);
+        border-radius: 50%;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        height: 30px;
+        width: 30px;
+      }
+
+      section {
+        scroll-margin-top: 7em;
+      }
+
+      .cards {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .card {
+        border: 1px solid tomato;
+        border-radius: 1rem;
+        flex: 1; /* flex-grow: 1, flex-shrink: 1, flex-basis: 0% */
+        position: relative;
+        overflow: hidden;
+      }
+
+      .card img {
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .card-body {
+        background-color: rgba(0, 0, 0, 0.572);
+        color: white;
+        height: 100%;
+        padding: 0.5rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        /* opacity: 0; */
+        transform: translateY(100%);
+        transition-duration: 250ms;
+      }
+      .card:hover .card-body {
+        /* opacity: 1; */
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      <h1>My website</h1>
+      <section class="work-section" id="work">
+        <h2>Work</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          distinctio, modi vel alias quia facere minus. Aliquam, unde optio
+          velit mollitia placeat obcaecati impedit quae nesciunt aspernatur
+          provident ex tempora, maxime soluta. Officiis rerum iure ab laudantium
+          aspernatur qui. Nihil consectetur laboriosam ipsum expedita architecto
+          necessitatibus, amet quidem sint ullam? Voluptatum blanditiis
+          consequatur et, illo ut quod fugiat cumque nisi necessitatibus itaque
+          labore voluptatibus, dicta, qui unde amet delectus quo? Inventore
+          aliquid eveniet odit dolore expedita quam qui porro iure iste
+          repellendus, sint error ab laborum excepturi earum tempore aspernatur
+          veniam asperiores ipsum! Odit tempora sint velit a sit et!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          distinctio, modi vel alias quia facere minus. Aliquam, unde optio
+          velit mollitia placeat obcaecati impedit quae nesciunt aspernatur
+          provident ex tempora, maxime soluta. Officiis rerum iure ab laudantium
+          aspernatur qui. Nihil consectetur laboriosam ipsum expedita architecto
+          necessitatibus, amet quidem sint ullam? Voluptatum blanditiis
+          consequatur et, illo ut quod fugiat cumque nisi necessitatibus itaque
+          labore voluptatibus, dicta, qui unde amet delectus quo? Inventore
+          aliquid eveniet odit dolore expedita quam qui porro iure iste
+          repellendus, sint error ab laborum excepturi earum tempore aspernatur
+          veniam asperiores ipsum! Odit tempora sint velit a sit et!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          distinctio, modi vel alias quia facere minus. Aliquam, unde optio
+          velit mollitia placeat obcaecati impedit quae nesciunt aspernatur
+          provident ex tempora, maxime soluta. Officiis rerum iure ab laudantium
+          aspernatur qui. Nihil consectetur laboriosam ipsum expedita architecto
+          necessitatibus, amet quidem sint ullam? Voluptatum blanditiis
+          consequatur et, illo ut quod fugiat cumque nisi necessitatibus itaque
+          labore voluptatibus, dicta, qui unde amet delectus quo? Inventore
+          aliquid eveniet odit dolore expedita quam qui porro iure iste
+          repellendus, sint error ab laborum excepturi earum tempore aspernatur
+          veniam asperiores ipsum! Odit tempora sint velit a sit et!
+        </p>
+      </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          distinctio, modi vel alias quia facere minus. Aliquam, unde optio
+          velit mollitia placeat obcaecati impedit quae nesciunt aspernatur
+          provident ex tempora, maxime soluta. Officiis rerum iure ab laudantium
+          aspernatur qui. Nihil consectetur laboriosam ipsum expedita architecto
+          necessitatibus, amet quidem sint ullam? Voluptatum blanditiis
+          consequatur et, illo ut quod fugiat cumque nisi necessitatibus itaque
+          labore voluptatibus, dicta, qui unde amet delectus quo? Inventore
+          aliquid eveniet odit dolore expedita quam qui porro iure iste
+          repellendus, sint error ab laborum excepturi earum tempore aspernatur
+          veniam asperiores ipsum! Odit tempora sint velit a sit et!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          distinctio, modi vel alias quia facere minus. Aliquam, unde optio
+          velit mollitia placeat obcaecati impedit quae nesciunt aspernatur
+          provident ex tempora, maxime soluta. Officiis rerum iure ab laudantium
+          aspernatur qui. Nihil consectetur laboriosam ipsum expedita architecto
+          necessitatibus, amet quidem sint ullam? Voluptatum blanditiis
+          consequatur et, illo ut quod fugiat cumque nisi necessitatibus itaque
+          labore voluptatibus, dicta, qui unde amet delectus quo? Inventore
+          aliquid eveniet odit dolore expedita quam qui porro iure iste
+          repellendus, sint error ab laborum excepturi earum tempore aspernatur
+          veniam asperiores ipsum! Odit tempora sint velit a sit et!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          distinctio, modi vel alias quia facere minus. Aliquam, unde optio
+          velit mollitia placeat obcaecati impedit quae nesciunt aspernatur
+          provident ex tempora, maxime soluta. Officiis rerum iure ab laudantium
+          aspernatur qui. Nihil consectetur laboriosam ipsum expedita architecto
+          necessitatibus, amet quidem sint ullam? Voluptatum blanditiis
+          consequatur et, illo ut quod fugiat cumque nisi necessitatibus itaque
+          labore voluptatibus, dicta, qui unde amet delectus quo? Inventore
+          aliquid eveniet odit dolore expedita quam qui porro iure iste
+          repellendus, sint error ab laborum excepturi earum tempore aspernatur
+          veniam asperiores ipsum! Odit tempora sint velit a sit et!
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          distinctio, modi vel alias quia facere minus. Aliquam, unde optio
+          velit mollitia placeat obcaecati impedit quae nesciunt aspernatur
+          provident ex tempora, maxime soluta. Officiis rerum iure ab laudantium
+          aspernatur qui. Nihil consectetur laboriosam ipsum expedita architecto
+          necessitatibus, amet quidem sint ullam? Voluptatum blanditiis
+          consequatur et, illo ut quod fugiat cumque nisi necessitatibus itaque
+          labore voluptatibus, dicta, qui unde amet delectus quo? Inventore
+          aliquid eveniet odit dolore expedita quam qui porro iure iste
+          repellendus, sint error ab laborum excepturi earum tempore aspernatur
+          veniam asperiores ipsum! Odit tempora sint velit a sit et!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          distinctio, modi vel alias quia facere minus. Aliquam, unde optio
+          velit mollitia placeat obcaecati impedit quae nesciunt aspernatur
+          provident ex tempora, maxime soluta. Officiis rerum iure ab laudantium
+          aspernatur qui. Nihil consectetur laboriosam ipsum expedita architecto
+          necessitatibus, amet quidem sint ullam? Voluptatum blanditiis
+          consequatur et, illo ut quod fugiat cumque nisi necessitatibus itaque
+          labore voluptatibus, dicta, qui unde amet delectus quo? Inventore
+          aliquid eveniet odit dolore expedita quam qui porro iure iste
+          repellendus, sint error ab laborum excepturi earum tempore aspernatur
+          veniam asperiores ipsum! Odit tempora sint velit a sit et!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+          distinctio, modi vel alias quia facere minus. Aliquam, unde optio
+          velit mollitia placeat obcaecati impedit quae nesciunt aspernatur
+          provident ex tempora, maxime soluta. Officiis rerum iure ab laudantium
+          aspernatur qui. Nihil consectetur laboriosam ipsum expedita architecto
+          necessitatibus, amet quidem sint ullam? Voluptatum blanditiis
+          consequatur et, illo ut quod fugiat cumque nisi necessitatibus itaque
+          labore voluptatibus, dicta, qui unde amet delectus quo? Inventore
+          aliquid eveniet odit dolore expedita quam qui porro iure iste
+          repellendus, sint error ab laborum excepturi earum tempore aspernatur
+          veniam asperiores ipsum! Odit tempora sint velit a sit et!
+        </p>
+      </section>
+      <section>
+        <h2>Projects</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="dino-1.jpg" />
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Cupiditate, quis.
+              </p>
+            </div>
+            
+          </div>
+          <div class="card">
+            <img src="dino-2.jpg" />
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Cupiditate, quis.
+              </p>
+            </div>
+            
+          </div>
+          <div class="card">
+            <img src="dino-3.jpg" />
+            <div class="card-body">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Cupiditate, quis.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <a class="back-to-top" href="#">top</a>
+    </div>
+  </body>
+</html>
